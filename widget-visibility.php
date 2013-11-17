@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Jetpack Widget Visibility
  * Plugin URI: http://wordpress.org/plugins/jetpack-widget-visibility/
- * Description: Control what pages your widgets appear on.
+ * Description: Control what pages your widgets appear on. <a href="widgets.php">Go to widgets</a>
  * Author: Anas H. Sulaiman
  * Version: 2.5
  * Author URI: http://ahs.pw/
