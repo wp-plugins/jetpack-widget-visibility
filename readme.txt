@@ -33,6 +33,7 @@ The good news is that the module can be translated easily.
 
 * [Jetpack Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 * [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
+* [Jetpack Sharing](http://wordpress.org/plugins/jetpack-sharing/) - The most super duper sharing tool on the interwebs. Share content with Facebook, Twitter, and many more.
 
 == Installation ==
 
