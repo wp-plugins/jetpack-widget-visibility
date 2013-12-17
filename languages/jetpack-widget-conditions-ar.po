@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jetpack Widget Visibility v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-23 13:53:54+0000\n"
+"Last-Translator: Anas H. Sulaiman <anas@ahs.pw>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: SAUDI ARABIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: widget-visibility/widget-conditions.php:34
+#@ jetpack-widget-conditions
+msgid "All category pages"
+msgstr "جميع صفحات التصنيفات"
+
+#: widget-visibility/widget-conditions.php:48
+#@ jetpack-widget-conditions
+msgid "All author pages"
+msgstr "جميع صفحات الكتاب"
+
+#: widget-visibility/widget-conditions.php:59
+#@ jetpack-widget-conditions
+msgid "All tag pages"
+msgstr "جميع صفحات الوسوم"
+
+#: widget-visibility/widget-conditions.php:73
+#@ jetpack-widget-conditions
+msgid "All date archives"
+msgstr "جميع صفحات الأرشيفات"
+
+#: widget-visibility/widget-conditions.php:74
+#@ jetpack-widget-conditions
+msgid "Daily archives"
+msgstr "الأرشيفات اليومية"
+
+#: widget-visibility/widget-conditions.php:75
+#@ jetpack-widget-conditions
+msgid "Monthly archives"
+msgstr "الأرشيفات الشهرية"
+
+#: widget-visibility/widget-conditions.php:76
+#@ jetpack-widget-conditions
+msgid "Yearly archives"
+msgstr "الأرشيفات السنوية"
+
+#: widget-visibility/widget-conditions.php:87
+#@ jetpack-widget-conditions
+msgid "Front page"
+msgstr "الصفحة الأمامية"
+
+#: widget-visibility/widget-conditions.php:88
+#@ jetpack-widget-conditions
+msgid "Posts page"
+msgstr "صفحة المنشورات"
+
+#: widget-visibility/widget-conditions.php:89
+#@ jetpack-widget-conditions
+msgid "404 error page"
+msgstr "صفحة خطأ 404"
+
+#: widget-visibility/widget-conditions.php:90
+#@ jetpack-widget-conditions
+msgid "Search results"
+msgstr "نتائج البحث"
+
+#: widget-visibility/widget-conditions.php:91
+#@ jetpack-widget-conditions
+msgid "Post type:"
+msgstr "نوع المنشور:"
+
+#: widget-visibility/widget-conditions.php:104
+#@ jetpack-widget-conditions
+msgid "Static page:"
+msgstr "صفحة ثابتة:"
+
+#: widget-visibility/widget-conditions.php:146
+#@ jetpack-widget-conditions
+msgid "Visibility"
+msgstr "الإظهار"
+
+#: widget-visibility/widget-conditions.php:149
+#, php-format
+#@ jetpack-widget-conditions
+msgctxt "placeholder: dropdown menu to select widget visibility; hide if or show if"
+msgid "%s if:"
+msgstr "%s إذا:"
+
+#: widget-visibility/widget-conditions.php:149
+#, php-format
+#@ jetpack-widget-conditions
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Show"
+msgstr "أظهر"
+
+#: widget-visibility/widget-conditions.php:149
+#, php-format
+#@ jetpack-widget-conditions
+msgctxt "Used in the \"%s if:\" translation for the widget visibility dropdown"
+msgid "Hide"
+msgstr "اخفي"
+
+#: widget-visibility/widget-conditions.php:160
+#@ jetpack-widget-conditions
+msgctxt "Used as the default option in a dropdown list"
+msgid "-- Select --"
+msgstr "-- اختر --"
+
+#: widget-visibility/widget-conditions.php:161
+#@ jetpack-widget-conditions
+msgid "Category"
+msgstr "التصنيف"
+
+#: widget-visibility/widget-conditions.php:162
+#@ jetpack-widget-conditions
+msgctxt "Noun, as in: \"The author of this post is...\""
+msgid "Author"
+msgstr "الكاتب"
+
+#: widget-visibility/widget-conditions.php:163
+#@ jetpack-widget-conditions
+msgctxt "Noun, as in: \"This post has one tag.\""
+msgid "Tag"
+msgstr "الوسم"
+
+#: widget-visibility/widget-conditions.php:164
+#@ jetpack-widget-conditions
+msgctxt "Noun, as in: \"This page is a date archive.\""
+msgid "Date"
+msgstr "التاريخ"
+
+#: widget-visibility/widget-conditions.php:165
+#@ jetpack-widget-conditions
+msgctxt "Example: The user is looking at a page, not a post."
+msgid "Page"
+msgstr "الصفحة"
+
+#: widget-visibility/widget-conditions.php:167
+#@ jetpack-widget-conditions
+msgctxt "Widget Visibility: {Rule Major [Page]} is {Rule Minor [Search results]}"
+msgid "is"
+msgstr "هو"
+
+#: widget-visibility/widget-conditions.php:168
+#@ jetpack-widget-conditions
+msgid "Loading..."
+msgstr "جاري التحميل..."
+
+#: widget-visibility/widget-conditions.php:171
+#@ jetpack-widget-conditions
+msgctxt "Shown between widget visibility conditions."
+msgid "or"
+msgstr "أو"
+
+#: widget-visibility/widget-conditions.php:174
+#@ jetpack-widget-conditions
+msgid "Delete"
+msgstr "حذف"
+
+#: widget-visibility/widget-conditions.php:174
+#@ jetpack-widget-conditions
+msgid "Add"
+msgstr "إضافة"
+
+#. translators: plugin header field 'Name'
+#: widget-visibility.php:0
+#@ jetpack-widget-conditions
+msgid "Jetpack Widget Visibility"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: widget-visibility.php:0
+#@ jetpack-widget-conditions
+msgid "Control what pages your widgets appear on."
+msgstr "تحكم في الصفحات التي تظهر عليها مربعاتك الجانبية."
+
+#. translators: plugin header field 'Author'
+#: widget-visibility.php:0
+#@ jetpack-widget-conditions
+msgid "Anas H. Sulaiman"
+msgstr "أنس هشام سليمان"
+
+#. translators: plugin header field 'AuthorURI'
+#: widget-visibility.php:0
+#@ jetpack-widget-conditions
+msgid "http://ahs.pw/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: widget-visibility.php:0
+#@ jetpack-widget-conditions
+msgid "1.0"
+msgstr ""
+
