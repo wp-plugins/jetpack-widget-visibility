@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-widget-visibility/
  * Description: Control what pages your widgets appear on. <a href="widgets.php">Go to widgets</a>
  * Author: Anas H. Sulaiman
- * Version: 2.7
+ * Version: 2.9
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-widget-conditions
  * Domain Path: /languages/
@@ -19,6 +19,7 @@
  * First Introduced: 2.4
  * Requires Connection: No
  * Auto Activate: Yes
+ * Module Tags: Appearance
  */
 
 include dirname( __FILE__ ) . "/widget-visibility/widget-conditions.php";

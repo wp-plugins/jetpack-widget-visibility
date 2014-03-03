@@ -3,7 +3,7 @@ Contributors: ahspw
 Tags: widget, visibility, show, hide, control, jetpack, widgets
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 2.7
+Stable tag: 2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,7 +56,15 @@ The good news is that the module can be translated easily.
 
 == Changelog ==
 
-= 2.5 =
-* Initial release
+= 2.9 =
+
+* Widget Visibility: Add support for old-style single use widgets.
+* Bugfix
+
 = 2.7 =
+
 * Update to Jetpack 2.7
+
+= 2.5 =
+
+* Initial release
