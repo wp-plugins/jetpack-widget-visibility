@@ -3,11 +3,11 @@
 /*
  * Plugin Name: Jetpack Widget Visibility
  * Plugin URI: http://wordpress.org/plugins/jetpack-widget-visibility/
- * Description: Control what pages your widgets appear on. <a href="widgets.php">Go to widgets</a>
+ * Description: Control what pages your widgets appear on.
  * Author: Anas H. Sulaiman
  * Version: 2.9
  * Author URI: http://ahs.pw/
- * Text Domain: jetpack-widget-conditions
+ * Text Domain: jetpack-widget-visibility
  * Domain Path: /languages/
  * License: GPL2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -24,13 +24,26 @@
 
 include dirname( __FILE__ ) . "/widget-visibility/widget-conditions.php";
 
-add_action( 'plugins_loaded', 'widget_conditions_load_textdomain' ); // Edited by Anas H. Sulaiman
-function widget_conditions_load_textdomain() {
-	load_plugin_textdomain( 'jetpack-widget-conditions', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-} // Edited by Anas H. Sulaiman
+// E-1 {
+function jetpack_widget_visibility_load_textdomain() {
+	load_plugin_textdomain( 'jetpack-widget-visibility', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'jetpack_widget_visibility_load_textdomain' );
+// }
+
+// E-2 {
+function jetpack_widget_visibility_settings_link($actions) {
+	return array_merge(
+		array( 'settings' => sprintf( '<a href="%s">%s</a>', 'widgets.php', __( 'Widgets', 'jetpack-widget-visibility' ) ) ),
+		$actions
+	);
+	return $actions;
+}
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'jetpack_widget_visibility_settings_link' );
+// }
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: 
+Edits by Anas H. Sulaiman:
+E-1 : load text domain
+E-2 : add settings link
 */
