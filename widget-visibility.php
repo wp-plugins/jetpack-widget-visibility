@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-widget-visibility/
  * Description: Control what pages your widgets appear on.
  * Author: Anas H. Sulaiman
- * Version: 2.9
+ * Version: 2.9.3
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-widget-visibility
  * Domain Path: /languages/
