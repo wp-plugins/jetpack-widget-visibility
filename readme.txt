@@ -20,6 +20,11 @@ For example, if you wanted the Archives widget to only appear on category archiv
 You can also hide widgets based on the current page.  
 For example, if you don’t want the Archives widget to appear on search results pages, choose “Hide” and “Page is Search Results.”
 
+= Before asking for help =
+
+* If this plugin works (which means it activates without problems), please post your help request on the original [Jetpack forums](http://wordpress.org/support/plugin/jetpack). Your chances of getting help will be much better. I'm not the developer of this plugin. See notes below.
+* If, otherwise, this plugin does not work (which means it is not activating or it's breaking your bolg), please ask [here](https://wordpress.org/support/plugin/jetpack-widget-visibility), and I shall help you fix it ASAP.
+
 = Notes =
 
 [Jetpack](http://wordpress.org/plugins/jetpack/) is a plugin that ships with many modules. Why install the whole package, if you're just interested in one module?!
