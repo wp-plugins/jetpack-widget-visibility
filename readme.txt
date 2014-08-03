@@ -1,9 +1,9 @@
-=== Jetpack Widget Visibility ===
+=== JP Widget Visibility ===
 Contributors: ahspw
 Tags: widget, visibility, show, hide, control, jetpack, widgets
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 3.0.1
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Specify which widgets appear on which pages of your site.
 
 == Description ==
 
-Jetpack Widget Visibility adds a new button to every widget in the widget area, allowing you to choose on which page this particular widget appears. or disappears.  
+JP Widget Visibility adds a new button to every widget in the widget area, allowing you to choose on which page this particular widget appears. or disappears.  
 It's very easy to add conditions and the conditions are flexibile enough to give you great control over you widgets visibility.
 
 Visibility is controlled by five aspects: page type, category, tag, date, and author.  
@@ -44,15 +44,15 @@ The good news is that the module can be translated easily.
 
 = You may also like =
 
-* [Jetpack Sharing](http://wordpress.org/plugins/jetpack-sharing/) - Share content with Facebook, Twitter, and many more.
-* [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
-* [Jetpack Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
-* [Jetpack Markdown](http://wordpress.org/plugins/jetpack-markdown/) - Write in Markdown, publish in HTML.
+* [JP Sharing](http://wordpress.org/plugins/jetpack-sharing/) - Share content with Facebook, Twitter, and many more.
+* [JP Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
+* [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
+* [JP Markdown](http://wordpress.org/plugins/jetpack-markdown/) - Write in Markdown, publish in HTML.
 
 == Installation ==
 
-1. Install Jetpack Widget Visibility either via the WordPress.org plugin directory, or by uploading the files to your server.
-2. Activate Jetpack Widget Visibility through the 'Plugins' menu in WordPress.
+1. Install JP Widget Visibility either via the WordPress.org plugin directory, or by uploading the files to your server.
+2. Activate JP Widget Visibility through the 'Plugins' menu in WordPress.
 3. That's it. You're ready to go!
 
 == Screenshots ==
@@ -61,6 +61,13 @@ The good news is that the module can be translated easily.
 2. Visibility conditions
 
 == Changelog ==
+
+= 3.1 =
+
+* Update to 3.1
+* Bug Fix: Works better in the customizer admin view.
+* Improved RTL support
+* Changed plugin name to "JP Widget Visibility" in response to Jetpack team request.
 
 = 3.0.1 =
 
@@ -83,3 +90,8 @@ The good news is that the module can be translated easily.
 = 2.5 =
 
 * Initial release
+
+== Upgrade Notice ==
+
+= 3.1 =
+Improved RTL support and bugfixes.
